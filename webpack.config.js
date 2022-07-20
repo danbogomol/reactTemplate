@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   // Where files should be sent once they are bundled
  output: {
-   path: path.join(__dirname, '/miraqle'),
+   path: path.join(__dirname, '/build'),
    filename: 'index.bundle.js'
  },
  module: {
